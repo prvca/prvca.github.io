@@ -1,0 +1,463 @@
+* { 
+	box-sizing: border-box;
+}
+	
+header, nav, main, footer {
+	display: block;
+}
+
+#wrapper {
+	width:80%;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+header {
+	background-image:url("graphics/painting.jpg");
+	height:180px;
+	width:100%;
+	background-repeat:no-repeat;
+	font-family: Rockwell,Bookman,Georgia,"Times New Roman",serif;
+	
+}	
+
+#logo {
+	float:left;
+	margin-left:1em;
+	margin-top:1em;
+	border:thin grey solid;
+}
+
+header h1 {
+	font-size:4em;
+	text-align:center;
+	/*padding:2em 0 0 5em;*/
+	padding-top:.7em;
+	margin-bottom:0;
+	margin-right:1.3em;
+}
+
+nav {
+	text-align:center;
+
+	
+}
+nav li{
+	display:inline-block;
+	/*padding-top:.5em;
+	padding-right:1em;
+	padding-left:1em;
+	padding-bottom:.5em;*/
+	margin-right:.5em;
+	background:rgba(223, 244, 249, .8);
+	border:thin #A0B3C0 solid;
+}
+
+	nav a {
+	display:block;
+	color:black;
+	text-decoration:none;
+	padding:.5em 1em;
+	}
+	
+	#currentpage {
+		padding: .5em 1em;
+	}
+	
+	nav ul li a:hover {
+	color:white;
+	background:rgba(115, 135, 139, .3)
+		
+	
+	}
+	
+	
+	main {
+		padding-top: 0;
+		padding-left:1.5em;
+		padding-right:1.5em;
+		padding-bottom:1em;
+		border: thin dotted gray;
+		font-family:calibri,verdana,arial,helvetica,sans-serif;
+	}
+	
+	h2 {
+		font-family:calibri,verdana,arial,helvetica,sans-serif;
+		text-align:Center;
+		font-size:1.7em;
+		
+	}
+	
+	h3 {
+		font-family:calibri,verdana,arial,helvetica,sans-serif;
+		font-size:1.3em;
+		
+	}
+	
+	.time {
+		font-style:italic;
+		padding-bottom:.5em;
+		display:block;
+	}
+	
+	hr {
+		height:2px;
+		background-color:#9bbbef;
+		border:none;
+		margin:0 3em;
+	}
+	
+	/*index first div*/
+	#homediv{
+		text-align:center;
+
+	}
+	#homediv p{
+		text-align:justify;
+	}
+
+	
+	#services {
+		display:inline-block;
+		text-align:left;
+
+
+	}
+	
+	#services h3 {
+		margin-bottom:.5em;
+		margin-top:0;
+		font-style:italic;
+	}
+	
+	
+	.float_right {
+		float:right;
+		display:inline-block;
+		margin-left:1em;
+		margin-bottom:1em;
+		border:thin grey solid;
+	}
+	
+	.float_left {
+		float:left;
+		display:inline-block;
+		margin-right:1em;
+		margin-bottom:1em;
+	}
+	
+	.clear {
+		clear:both;
+	}
+	
+	.center {
+		text-align:center;
+
+	}
+
+	
+	.backtop {	
+		margin-right:auto;
+		margin-left:auto;
+		max-width:120px;
+	}
+	
+	.backtop a {
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	font-weight: bold;
+	border: 3px outset #CCCCCC;
+	padding: 1em;
+	margin-bottom: 1em;
+	
+
+	
+	}
+
+	.backtop a:link {
+		color: #3F2860;
+	}
+
+	.backtop a:visited {
+		color: #497777;
+	}
+
+	.backtop a:hover {
+		color: grey; 
+		border: 3px inset #9bbbef;
+	}
+
+	
+	
+	
+	
+	
+	
+	
+	.same_line {
+		display:inline-block;
+		margin-top:.5em;
+		margin-right:1em;
+		padding:.5em 1em .5em 1em;
+		background:rgba(223, 244, 249, .8);
+	}
+	
+	
+	/* index, new events*/
+	section {
+		width:95%;
+		height:100%;
+		margin-right:auto;
+		margin-left:auto;
+		background:rgba(223, 244, 249, .8);
+		padding:1.5em;
+		margin-bottom:1em;
+		min-height:250px;
+	}
+	
+	
+
+	.event1 {
+		display:inline-block;
+		float:left;
+		margin-right:1em;
+		
+	}
+	
+	.event1info{
+		text-align:left;
+		
+		
+	}
+
+	/*about layout*/
+	
+	#store_div {
+		text-align:Center;
+		width:100%;
+		margin-right:auto;
+		margin-left:Auto;
+
+	}
+	
+	#store_pic {
+		display:inline-block;
+		margin-right:1em;
+	
+		
+	}
+	
+	#store_hours {
+		display:inline-block;
+		vertical-align:top;
+		text-align:center;
+
+	}
+	
+	#store_hours table{
+		border-collapse:collapse;
+		border:thin dotted #3F2860;
+		background:rgba(223, 244, 249, .8);
+		
+	}
+	
+	#store_hours td {
+		padding:.3em 1em;
+		text-align:left;
+		
+	}
+	
+	#store_hours caption {
+		padding-bottom:.5em;
+	}
+
+	
+	.desc {
+		display:inline-block;
+		background-color:green;
+	
+	}
+	
+	th {
+		text-align:Center;
+	}
+	td, th {
+	padding:.3em 2em .5em 1.5em;
+	/*border:1px solid #3F2860;*/
+}
+
+	caption {
+		font-family:calibri,verdana,arial,helvetica,sans-serif;
+		font-size:1.3em;
+		font-weight:bold;
+	
+	}
+	
+	
+	/*Store flex boxes*/
+	
+	.flex-grid {
+		display: flex;
+		text-align:Center;
+		margin-right:auto;
+		margin-left:auto;
+		
+	}
+	
+	.col {
+		flex: 1;
+		border:thin dotted gray;
+		margin:.3em;
+		padding:1em;
+		
+	}
+	
+	#sale_form {
+		margin-left:auto;
+		margin-right:auto;
+		display:block;
+		background:rgba(223, 244, 249, .8);
+		width:500px;
+		padding:1em 0 1em 1.7em;
+	}
+	
+	td {
+		vertical-align: top;
+		padding:0;
+		
+	}
+	
+	#submit, #reset{
+		display:inline;
+	
+	}
+	
+	.price {
+		font-style:italic;
+	}
+	.product {
+		font-weight:bold;
+	}
+	
+	#list {
+	list-style:none;
+	background:rgba(223, 244, 249, .8);
+	padding-left:0;
+	text-align:center;
+	width:300px;
+	margin-right:auto;
+	margin-left:auto;
+	padding:1em 0;
+	
+	
+	}
+	
+	#list li {
+		padding-bottom:1em;
+	}
+	
+	footer {
+	
+	background:rgba(87, 170, 251, .3);
+	font-size: .70em;
+	font-style: italic;
+	text-align: center;
+	padding: 1.2em;
+	}
+
+	
+@media only all and (max-width: 1024px) {
+	
+	.flex-grid {
+		display: inline-block;
+		margin-right:auto;
+		margin-left:auto;
+		width:49%;
+		
+	}
+	.col {
+		flex: 1; 
+		padding: 1em;
+		border-style:dotted;
+		margin:1em;
+		
+		
+	}
+	
+	.float_right {
+		float:none;
+	}
+	
+	
+}
+
+@media only all and (max-width:768px) {
+	#wrapper {
+		width:100%;
+	}
+	
+	header h1 {
+		font-size:3em;
+		text-align:center;
+		margin:0;
+		
+	
+	}
+	
+	nav {
+		text-align:center;
+		padding-top:1em;
+		margin-left:-2em;
+	}
+	
+	
+	
+	nav li {
+		margin-right:.5em;
+		background:rgba(223, 244, 249, .9);
+		display:inline-block;
+		margin-bottom:.2em;
+	
+	}	
+	
+	nav a {
+		padding-left:.5em;
+		padding-right:.5em;
+	}
+	
+	#currentpage {
+		padding-left:.5em;
+		padding-right:.5em;
+	}
+	
+	#logo{
+		display:none;
+	}
+	
+	.flex-grid {
+		display: block;
+		text-align:Center;
+		width:90%;
+	}
+	
+	.col {
+		flex: 1;
+		border:thin dotted gray;
+		margin-bottom:1em;
+		display:block;
+	}
+	
+	#sale_form {
+		width:85%;
+		min-width:330px;
+		padding-right:1em;
+		
+	}
+	
+	.float_right, .event1, #store_pic, #shoppic{
+		display:none;
+	}
+	
+	
+}

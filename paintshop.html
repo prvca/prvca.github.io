@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>Art Haven</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link href="art.css" rel="stylesheet" />
+<!--[if lt IE 9]>
+<script src"http://html5shim.googlecode.com/svn/trunk/html5.js">
+</script>
+<![endif]-->
+</head>
+
+<body>
+<div id="wrapper">
+<div id="content">
+</div>
+<header>
+<a href="index.html"><img src="graphics/logo.jpg" alt="Art Haven Logo" width="100" height="100" id="logo" /></a>
+<h1>Art Haven</h1>
+
+
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="shop.html">Shop</a></li>
+<li><a href="classes.html">Classes</a></li>
+<li><a href="ideas.html">Ideas</a></li>
+</ul>
+</nav>
+</header>
+
+<main>
+
+<h2>Paint Supplies</h2>
+
+<div class="flex-grid">
+  <div class="col"><br /><img src="graphics/paintbrushes.jpg" width="200" height="140" alt="Paint brush set" /><br/><span class="product">Brush Set</span><br /><span class="price">Price: 25.99</span></div>
+  <div class="col"><br /><img src="graphics/acrylic.jpg" width="200" height="140" alt="Acrylic paint set" /><br /><span class="product">Acrylic Paints</span><br /><span class="price">Price: 29.99</span></div>
+  <div class="col"><br /><img src="graphics/watercolor.jpg" width="200" height="140" alt="Watercolor Palette" /><br /><span class="product">Watercolor Palette</span><br /><span class="price">Price: 19.99</span></div>
+</div>
+<div class="flex-grid">
+  <div class="col"><br /><img src="graphics/paper.jpg" width="200" height="140" alt="Paper" /><br/><span class="product">Premium Paper</span><br /><span class="price">Price: 15.99</span></div>
+  <div class="col"><br /><img src="graphics/pencils.jpg" width="200" height="140" alt="Colored pencils"/><br /><span class="product">Colored Pencil Set</span><br /><span class="price">Price: 12.99</span></div>
+  <div class="col"><br /><img src="graphics/markers.jpg" width="200" height="140" alt="Markers" /><br /><span class="product">Marker Set</span><br /><span class="price">Price: 19.99</span></div>
+</div>
+
+<br /><div class="backtop"><a href="#content">Back to Top</a></div><br />
+
+
+<form action="mailto:sales@arthaven.com" method="post" name="feedback" id="feedback" enctype="text/plain">
+  <div id="sale_form">
+  <table>
+    <tbody>
+      <tr>
+        <th colspan="2" scope="col">Place orders for paint/drawing products</th>
+        </tr>
+      <tr>
+        <td><label for="first_name">
+          <input name="required" type="hidden" id="required" value="first_name,last_name,email" />
+          First name</label></td>
+        <td><input name="first_name" type="text" id="first_name" maxlength="100" /></td>
+      </tr>
+      <tr>
+        <td><label for="last_name">Last name</label></td>
+        <td><input name="last_name" type="text" id="last_name" maxlength="100" /></td>
+      </tr>
+      <tr>
+        <td><label for="email">Email</label></td>
+        <td><input type="email" name="email" id="email" /></td>
+      </tr>
+  
+      <tr>
+        <td><p><label>Products<br /></label></p></td>
+        <td><p>
+          <label for="brushes">
+            <input type="checkbox" name="products" value="brushes" id="brushes" />
+			<input type="hidden" name="cost1" id="cost1" value="25.99" />
+            Brush Set</label>
+			<br />
+          <label for="acrylicpaint">
+            <input type="checkbox" name="products" value="acrylicpaint" id="acrylicpaint" />
+			<input type="hidden" name="cost2" id="cost2" value="29.99" />
+            Oil Paints</label>
+          <br />
+          <label for="watercolor">
+            <input type="checkbox" name="products" value="watercolor" id="watercolor" />
+			<input type="hidden" name="cost3" id="cost3" value="19.99" />
+            Watercolor Palette</label>
+			<br />
+		<label for="paper">
+            <input type="checkbox" name="products" value="paper" id="paper" />
+			<input type="hidden" name="cost4" id="cost4" value="15.99" />
+            Premium Paper</label>
+			<br />
+		<label for="colorpencils">
+            <input type="checkbox" name="products" value="colorpencils" id="colorpencils" />
+			<input type="hidden" name="cost5" id="cost5" value="12.99" />
+            Colored Pencil Set</label><br />
+		<label for="markers">
+            <input type="checkbox" name="products" value="markers" id="markers" />
+			<input type="hidden" name="cost6" id="cost6" value="19.99" />
+            Marker Set</label>
+			
+    
+        </p></td>
+      </tr>
+
+      <tr>
+        <td><label>Have you shopped with us before?</label></td>
+        <td><p>
+          <label for="yes">
+            <input type="radio" name="shopper" value="yes" id="yes" />
+            Yes</label>
+          <br />
+          <label for="no">
+            <input type="radio" name="shopper" value="no" id="no" />
+            No</label>
+   
+        </p></td>
+      </tr>
+		 <tr>
+        <td><label for="comments">Comments</label></td>
+        <td><textarea name="comments" cols="25" rows="5" id="comments"></textarea></td>
+      </tr>
+	  <tr>
+        <td></td><td><input name="mysubmit" type="submit" id="mysubmit" value="Send Order" />
+          <input type="reset" name="myreset" id="myreset" value="Reset" /></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</form>
+
+</main>
+
+
+<footer>
+Copyright &#xA9; 2018 Art Haven<br />
+<a href="mailto:contact@arthaven.com">contact@arthaven.com</a>
+</footer>
+</div>
+
+</body>
+</html>
+
+
+
+

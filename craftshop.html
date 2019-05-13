@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>Art Haven</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link href="art.css" rel="stylesheet" />
+<!--[if lt IE 9]>
+<script src"http://html5shim.googlecode.com/svn/trunk/html5.js">
+</script>
+<![endif]-->
+</head>
+
+<body>
+<div id="wrapper">
+<div id="content">
+</div>
+<header>
+<a href="index.html"><img src="graphics/logo.jpg" alt="Art Haven Logo" width="100" height="100" id="logo" /></a>
+<h1>Art Haven</h1>
+
+
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="shop.html">Shop</a></li>
+<li><a href="classes.html">Classes</a></li>
+<li><a href="ideas.html">Ideas</a></li>
+</ul>
+</nav>
+</header>
+
+<main>
+
+<h2>Craft Supplies</h2>
+
+<div class="flex-grid">
+  <div class="col"><br /><img src="graphics/thread.jpg" width="200" height="140" alt="Thread kit" /><br/><span class="product">Thread Kit</span><br /><span class="price">Price: 12.99</span></div>
+  <div class="col"><br /><img src="graphics/cupcake.jpg" width="200" height="140" alt="Cupcake Craft" /><br /><span class="product">Paper Cupcake Craft Kit</span><br /><span class="price">Price: 19.99</span></div>
+  <div class="col"><br /><img src="graphics/tape.jpg" width="200" height="140" alt="Washi tape" /><br /><span class="product">Washi Tape Set</span><br /><span class="price">Price: 9.99</span></div>
+</div>
+<div class="flex-grid">
+  <div class="col"><br /><img src="graphics/molds.jpg" width="200" height="140" alt="Soap molds" /><br/><span class="product">Soap Molds</span><br /><span class="price">Price: 5.99</span></div>
+  <div class="col"><br /><img src="graphics/card.jpg" width="200" height="140" alt="Card paper" /><br /><span class="product">Card Paper</span><br /><span class="price">Price: 10.99</span></div>
+  <div class="col"><br /><img src="graphics/beads.jpg" width="200" height="140" alt="Jewelry beads" /><br /><span class="product">Jewelry Bead Kit</span><br /><span class="price">Price: 15.99</span></div>
+</div>
+
+<br /><div class="backtop"><a href="#content">Back to Top</a></div><br />
+
+
+<form action="mailto:sales@arthaven.com" method="post" name="feedback" id="feedback" enctype="text/plain" >
+  <div id="sale_form">
+  <table>
+    <tbody>
+      <tr>
+        <th colspan="2" scope="col">Place orders for craft products here.</th>
+        </tr>
+      <tr>
+        <td><label for="first_name">
+          <input name="required" type="hidden" id="required" value="first_name,last_name,email" />
+          First name</label></td>
+        <td><input name="first_name" type="text" id="first_name" maxlength="100" /></td>
+      </tr>
+      <tr>
+        <td><label for="last_name">Last name</label></td>
+        <td><input name="last_name" type="text" id="last_name" maxlength="100" /></td>
+      </tr>
+      <tr>
+        <td><label for="email">Email</label></td>
+        <td><input type="email" name="email" id="email" /></td>
+      </tr>
+  
+      <tr>
+        <td><label>Products<br /></label></td>
+        <td><p>
+          <label for="thread">
+            <input type="checkbox" name="craftproducts" value="thread" id="thread" />
+			<input type="hidden" name="cost1" id="cost1" value="12.99" />
+            Thread Kit</label>
+			<br />
+          <label for="cupcake">
+            <input type="checkbox" name="craftproducts" value="cupcake" id="cupcake" />
+			<input type="hidden" name="cost2" id="cost2" value="19.99" />
+            Paper Cupcake Craft Kit</label>
+          <br />
+          <label for="washi">
+            <input type="checkbox" name="craftproducts" value="washi" id="washi" />
+			<input type="hidden" name="cost3" id="cost3" value="9.99" />
+            Wash Tape Set</label>
+			<br />
+		<label for="soap">
+            <input type="checkbox" name="craftproducts" value="soap" id="soap" />
+			<input type="hidden" name="cost4" id="cost4" value="5.99" />
+            Soap Molds</label>
+			<br />
+		<label for="cardpaper">
+            <input type="checkbox" name="craftproducts" value="cardpaper" id="cardpaper" />
+			<input type="hidden" name="cost5" id="cost5" value="10.99" />
+            Card Paper</label><br />
+		<label for="beads">
+            <input type="checkbox" name="craftproducts" value="beads" id="beads" />
+			<input type="hidden" name="cost6" id="cost6" value="15.99" />
+            Jewelry Bead Set</label>
+			
+    
+        </p></td>
+      </tr>
+
+      <tr>
+        <td><label>Have you shopped with us before?</label></td>
+        <td><p>
+          <label for="yes">
+            <input type="radio" name="shopper" value="yes" id="yes" />
+            Yes</label>
+          <br />
+          <label for="no">
+            <input type="radio" name="shopper" value="no" id="no" />
+            No</label>
+   
+        </p></td>
+      </tr>
+		 <tr>
+        <td><label for="comments">Comments</label></td>
+        <td><textarea name="comments" cols="25" rows="5" id="comments"></textarea></td>
+      </tr>
+	  <tr>
+        <td></td><td><input name="mysubmit" type="submit" id="mysubmit" value="Send Order" />
+          <input type="reset" name="myreset" id="myreset" value="Reset" /></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+ </form>
+</main>
+
+
+<footer>
+Copyright &#xA9; 2018 Art Haven<br />
+<a href="mailto:contact@arthaven.com">contact@arthaven.com</a>
+</footer>
+</div>
+
+</body>
+</html>
+
+
+
+
