@@ -11,7 +11,7 @@ header, nav, main, footer {
 	
 header {
 	background-color: #666764; 
-	background-image: url("mwslogo.gif");
+	/*background-image: url("mwslogo.gif");*/
 	background-repeat: no-repeat;
 	height:130px;
 }
