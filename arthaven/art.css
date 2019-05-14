@@ -16,7 +16,8 @@ header {
 	background-image:url("graphics/painting.jpg");
 	height:180px;
 	width:100%;
-	background-repeat:round;
+	background-size: 100%;
+	background-repeat:no-repeat;
 	font-family: Rockwell,Bookman,Georgia,"Times New Roman",serif;
 	
 }	
